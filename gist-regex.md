@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Matching an Email using Regex
 
-Introductory paragraph (replace this with your text)
+The regex we will be looking at in this Gist is used for validating email inputs in a given application. We will dissect this regex: ```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/``` into its basic components.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Before we get into too much detail about a regex's components, firstly: What is a regex? A "regex", also known as a "regular expression" is a sequence of characters that is used to recognize and match patterns in text. Regex can be used in a lot of ways, some examples including: "find-and-replace" searches; finding data such as emails, phone numbers, usernames, etc. - anything that requires data-matching or searching data can be done easily with regex. In the case of the Regex we will be looking at today, it will be used to match and verify email addresses.
 
 ## Table of Contents
 
