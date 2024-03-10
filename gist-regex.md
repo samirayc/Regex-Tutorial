@@ -49,6 +49,8 @@ Flags are optional parameters that you can add to regex to change its default wa
 
 ### Character Escapes
 
+Character escapes are used to use a special character as a regular one, such as in situations when the desire is to match a character that cannot easily be represented in its literal form (ex: a line break). There is no use of a character escape in this email-matching regex.
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hi, I'm Samira Chetta and I'm the author of this tutorial! You can check out my GitHub profile [here](https://github.com/samirayc).
