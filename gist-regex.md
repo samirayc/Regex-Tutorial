@@ -1,4 +1,4 @@
-# Matching an Email using Regex
+# Matching an Email Using Regex
 
 The regex we will be looking at in this Gist is used for validating email inputs in a given application. We will dissect this regex: ```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/``` into its basic components.
 
@@ -41,7 +41,11 @@ Character classes are found within bracket expressions that distinguish kinds of
 
 ### The OR Operator
 
+An OR operator ```||``` is a boolean operator used to return the value as true if one or both of the values are true, and returns false otherwise. There is no use of the OR operator in the email-matching regex.
+
 ### Flags
+
+Flags are optional parameters that you can add to regex to change its default way of searching. This email-matching regex has two flags that also function as the anchors: ```^``` and ```$```. These flags are an "input boundary assertion", with an "input boundary" being the start and end of the string. ```^``` asserts the beginning of the string while ```$``` asserts the end, similar to its use as an anchor. 
 
 ### Character Escapes
 
